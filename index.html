@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Interval Bisect</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <script src="index.js" defer></script>
+    <div id="content-wrapper">
+        <h1 id="title-text">Simple Range Bisect</h1>
+        <ol>
+            <li>Input your interval min and max values.</li>
+            <li>The middle point of the interval will be automatically calculated.</li>
+            <li>Use the "Greater" or "Less" buttons to update the interval ranges accordingly.</li>
+            <li>The middle-point of the interval will be automatically calculated.</li>
+            <li>Check "Integer mode" if you are working with a discrete interval.</li>
+        </ol>
+
+        <div class="horizontal-wrapper">
+            <input id="min-input" class="range-input" placeholder="Min"/>
+            <input id="max-input" class="range-input" placeholder="Max"/>
+        </div>
+
+        <p id="middle-point-text">The middle-point is: <b><span id="middle-point-span"></span></b>.</p>
+
+        <p id="question-text">Is the number your are search for is <b>less than</b> or <b>greater than</b> the middle-point?</p>
+
+        <div class="horizontal-wrapper">
+            <button id="less-button">Less</button>
+            <button id="greater-button">Greater</button>
+        </div>
+
+        <div class="checkbox">
+            <input id= "integer-mode-checkbox" type="checkbox">
+            <label for="integer-mode-checkbox">Integer mode</label>
+        </div>
+    </div>
+    
+  </body>
+</html>

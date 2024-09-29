@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#content-wrapper {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-text {
+    text-align: center;
+}
+
+.range-input {
+    padding: 5px;
+    max-width: 80px;
+}
+
+.horizontal-wrapper {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkbox {
+    margin-top: 20px;
+    align-self: center;
+}
+
+#middle-point-text {
+    text-align: center;
+    font-size: large;
+}
+
+#question-text {
+    color: #666;
+    font-size: small;
+}
